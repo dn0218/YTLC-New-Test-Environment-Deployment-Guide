@@ -2,21 +2,21 @@
 
 ## 1. Create Users and Grant Privileges
 
-Each user gets the same password `Jsmart.868` and unlimited quota on `TAB_DEF2` (default tablespace).
+Each user gets the same password `<password>` and unlimited quota on `TAB_DEF2` (default tablespace).
 
 ```sql
 -- Create users
-create user POT2         identified by "Jsmart.868" default tablespace tab_def2 quota unlimited on tab_def2;
-create user CRM2         identified by "Jsmart.868" default tablespace tab_def2 quota unlimited on tab_def2;
-create user CC_REPORT2   identified by "Jsmart.868" default tablespace tab_def2 quota unlimited on tab_def2;
-create user QMDB2        identified by "Jsmart.868" default tablespace tab_def2 quota unlimited on tab_def2;
-create user MED2         identified by "Jsmart.868" default tablespace tab_def2 quota unlimited on tab_def2;
-create user CC2          identified by "Jsmart.868" default tablespace tab_def2 quota unlimited on tab_def2;
-create user PCC2         identified by "Jsmart.868" default tablespace tab_def2 quota unlimited on tab_def2;
-create user JNC2         identified by "Jsmart.868" default tablespace tab_def2 quota unlimited on tab_def2;
-create user APIG2        identified by "Jsmart.868" default tablespace tab_def2 quota unlimited on tab_def2;
-create user BCSC2        identified by "Jsmart.868" default tablespace tab_def2 quota unlimited on tab_def2;
-create user BCARE2       identified by "Jsmart.868" default tablespace tab_def2 quota unlimited on tab_def2;
+create user POT2         identified by "<password>" default tablespace tab_def2 quota unlimited on tab_def2;
+create user CRM2         identified by "<password>" default tablespace tab_def2 quota unlimited on tab_def2;
+create user CC_REPORT2   identified by "<password>" default tablespace tab_def2 quota unlimited on tab_def2;
+create user QMDB2        identified by "<password>" default tablespace tab_def2 quota unlimited on tab_def2;
+create user MED2         identified by "<password>" default tablespace tab_def2 quota unlimited on tab_def2;
+create user CC2          identified by "<password>" default tablespace tab_def2 quota unlimited on tab_def2;
+create user PCC2         identified by "<password>" default tablespace tab_def2 quota unlimited on tab_def2;
+create user JNC2         identified by "<password>" default tablespace tab_def2 quota unlimited on tab_def2;
+create user APIG2        identified by "<password>" default tablespace tab_def2 quota unlimited on tab_def2;
+create user BCSC2        identified by "<password>" default tablespace tab_def2 quota unlimited on tab_def2;
+create user BCARE2       identified by "<password>" default tablespace tab_def2 quota unlimited on tab_def2;
 
 -- Grant roles
 grant connect, resource, dba to POT2;
