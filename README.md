@@ -4,23 +4,6 @@ This document describes the steps to deploy a new test environment for the YTLC 
 
 ---
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Environment Architecture](#environment-architecture)
-- [Database Server – Reuse Strategy](#database-server--reuse-strategy)
-- [Database Setup](#database-setup)
-  - [1. Create Users and Grant Privileges](#1-create-users-and-grant-privileges)
-  - [2. Create Tablespaces](#2-create-tablespaces)
-  - [3. Export Data from Old Environment (Source)](#3-export-data-from-old-environment-source)
-  - [4. Import Data into New Environment (Target)](#4-import-data-into-new-environment-target)
-- [Application VM Configuration](#application-vm-configuration)
-  - [VM Resource Summary (Based on Testbed)](#vm-resource-summary-based-on-testbed)
-  - [Network & Hostname Mapping](#network--hostname-mapping)
-- [Validation & Next Steps](#validation--next-steps)
-
----
-
 ## Overview
 
 The goal is to provision a **new test environment** on-site with:
